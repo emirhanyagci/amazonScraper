@@ -75,4 +75,4 @@ const fetchDatas = async (productUrl) => {
     });
 };
 addToPowerPoint();
-// degerlednirmeyi ayarla
+// set file name as dynamic
