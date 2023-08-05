@@ -36,7 +36,7 @@ const addToPowerPoint = async () => {
       slide.addText({ value: "fiyat : " + price, x: 360, y: 190, cx: 350 });
       slide.addText({ value: "Satici : " + soldBy, x: 360, y: 240, cx: 350 });
       slide.addText({
-        value: "Review : " + review,
+        value: "Degerlendirme : " + review,
         x: 360,
         y: 290,
         cx: 350,
