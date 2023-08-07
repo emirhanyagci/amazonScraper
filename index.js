@@ -8,9 +8,6 @@ let pptx = new PPTX.Composer();
 // add new slide
 // pres.addSlide();
 
-const url =
-  "https://www.amazon.com.tr/Apple-MQD83TU-A-AirPods-2-nesil/dp/B0BDKHTWPM?ref_=Oct_d_otopr_d_26232650031_0&pd_rd_w=COBzL&content-id=amzn1.sym.f9c17f0f-98c1-44d7-8be4-d463c414346d&pf_rd_p=f9c17f0f-98c1-44d7-8be4-d463c414346d&pf_rd_r=SSQMJCHDEQ57QJKK48HY&pd_rd_wg=9i7cz&pd_rd_r=d36e970b-4abb-4427-bef4-24f07e254054&pd_rd_i=B0BDKHTWPM";
-
 const addToPowerPoint = async () => {
   prompt.start();
   prompt.get(["url"], async function (err, result) {
